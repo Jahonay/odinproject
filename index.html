@@ -107,7 +107,12 @@
     win, loss, ties
 */
 
+/*
 
+  rock paper scissors game
+
+*/
+/*
 
 let wins=0;
 let losses =0;
@@ -160,6 +165,20 @@ var rounds = parseInt(prompt("how many rounds do you want"));
     playRound(pHand.toLowerCase(), oHand);
     console.log("wins: " + wins + " losses: " + losses + " ties: " + ties);
   }
+*/
+
+const headerOne = document.createElement("p");
+headerOne.classList.add("headerOne");
+headerOne.textContent= 'Hi, I am red' ;
+headerOne.setAttribute('style', "color:red;")
+
+const headerthree = document.createElement("h3");
+headerthree.textContent= 'I am a blue h3' ;
+headerthree.setAttribute('style', "color:blue;")
+
+body=document.querySelector('body');
+body.appendChild(headerOne);
+body.appendChild(headerthree);
 
   </script>
 </body>
