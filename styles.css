@@ -28,7 +28,7 @@ body{
     color:rgb(255,166,0);
     height:fit-content;
 }
-.reset{
+.reset, .resize, .reset-button{
     background-color: rgb(243, 243, 243);
     border:1px solid lightgrey;
     margin:0 auto auto auto;
